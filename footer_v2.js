@@ -62,7 +62,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   // Mobile nav animation
 
   function mobileNav() {
-    console.log('code has run')
+    
     if (window.innerWidth < 992) {
         $('.wrapper-footer-links').css('display', 'none');
         $('.wrapper-footer-content').off('click').on('click', function() {
